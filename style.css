@@ -1,59 +1,48 @@
-
-body{
-    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Arial, sans-serif;
-    
-}
-body{
+body {
     font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-header, main, footer{
+header, main, footer {
     width: 90%;
     max-width: 960px;
     margin: 20px auto;
 }
 
-main{
+main {
     background-color: #ffffff;
     padding: 20px;
 }
 
-header{
+header {
     background-color: #333;
     color: #ffffff;
     padding: 20px;
     text-align: center;
 }
 
-
-nav ul{
+nav ul {
     list-style: none;
     padding: 0;
 }
 
-
-nav li{
+nav li {
     display: inline;
     margin: 0px;
 }
 
-
-nav a{
+nav a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
 }
 
-
-
 section.destaques {
-    display: flex; /
-    flex-wrap: wrap; 
-    justify-content: space-between; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-
 
 section.destaques h2 {
     width: 100%;
@@ -62,18 +51,14 @@ section.destaques h2 {
 }
 
 .destaque-item {
-    
-    width: 32%; 
-    margin: 0 0 20px 0; 
-
-    
+    width: 32%;
+    margin: 0 0 20px 0;
     background-color: #ffffff;
     border-radius: 8px;
-    overflow: hidden; 
+    overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
-
 
 .destaque-item:hover {
     transform: translateY(-5px);
@@ -92,85 +77,71 @@ section.destaques h2 {
     margin: 0;
 }
 
-
-   
-
-
-main img{
+main img {
     width: 100%;
     height: auto;
     border-radius: 5px;
 }
 
-
 .destaque-item img {
     height: 200px;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
-.links a{
+.links a {
     color: rgb(3, 201, 33);
 }
 
-h3.contato{
+h3.contato {
     text-align: center;
 }
 
-
 .form-grupo {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 .form-grupo label {
-    display: block; 
+    display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
 .form-grupo input,
 .form-grupo textarea {
-    width: 100%; 
+    width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .form-grupo button {
-    background-color: #333; 
-    color: #ffffff; 
+    background-color: #333;
+    color: #ffffff;
     padding: 12px 20px;
     border: none;
     border-radius: 5px;
-    cursor: pointer; 
+    cursor: pointer;
     font-size: 16px;
     font-weight: bold;
 }
 
 .form-grupo button:hover {
-    background-color: rgb(3, 201, 33); 
+    background-color: rgb(3, 201, 33);
 }
-
 
 @media (max-width: 768px) {
-    
 
-     */
     .destaque-item {
-        width: 90%; 
-       
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
     }
 
-    
     nav li {
-        display: block; 
-        margin-bottom: 10px; 
-        text-align: center; 
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
     }
 }
-
-.destaque-item:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0 6px 12px rgba(0,0,0,0.15); 
-}
-
